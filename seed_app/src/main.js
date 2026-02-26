@@ -13,5 +13,9 @@ const currentStage = computed(() => stages[stageIndex.value])
 function waterPlant() {
     if (shouldGrow.value && stageIndex.value < stages.length - 1){
         stageIndex.value++
+        Message.value = "成長の光、明日への歩み"
+    } else {
+        message.value = "今日は水やりの日、花はゆっくり咲くから美しい"
     }
+    
 }
