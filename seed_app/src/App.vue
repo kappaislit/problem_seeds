@@ -23,6 +23,11 @@ function water() {
       水をやる
     </button>
   </div>
+
+  <input type="checkbox" v-model="shouldGrow" />
+
+
+  
 </template>
 
 <style scoped>
