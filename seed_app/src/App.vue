@@ -27,7 +27,10 @@ function water() {
   <input type="checkbox" v-model="shouldGrow" />
 
 
-  
+  <p>{{ currentStage }}</p>
+  <input type="checkbox" v-model="shouldGrow" />
+  <button @click="waterPlant">水をやる</button>
+
 </template>
 
 <style scoped>
